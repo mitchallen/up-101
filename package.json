@@ -1,0 +1,21 @@
+{
+  "name": "up-101",
+  "version": "0.0.1",
+  "description": "up serverless experiment",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo TODO",
+    "deploy": "up",
+    "open": "up url --open",
+    "clipboard": "up url --copy",
+    "teardown": "up stack delete",
+    "up-version": "up version",
+    "up-upgrade": "up upgrade"
+  },
+  "keywords": [
+    "up",
+    "serverless"
+  ],
+  "author": "Mitch Allen",
+  "license": "MIT"
+}
